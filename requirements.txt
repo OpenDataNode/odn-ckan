@@ -41,6 +41,6 @@ unicodecsv==0.9.4
 vdm==0.11
 wsgiref==0.1.2
 zope.interface==4.0.1
-git+https://vcs.eea.sk/scm/odsk/ckancommons.git@master#egg=ckancommons
-git+https://vcs.eea.sk/scm/odsk/ckanext-odn-pipeline.git@master#egg=ckanext-odn-pipeline
-git+https://vcs.eea.sk/scm/odsk/ckanext-dataset-pusher.git@master#egg=ckanext-dataset-pusher
+git+https://github.com/OpenDataNode/odn-ckancommons.git#egg=odn-ckancommons
+git+https://github.com/OpenDataNode/ckanext-odn-pipeline.git##egg=ckanext-odn-pipeline
+git+https://github.com/OpenDataNode/ckanext-odn-theme.git@master#egg=ckanext-odn-theme
