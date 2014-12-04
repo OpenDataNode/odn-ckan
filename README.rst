@@ -72,7 +72,7 @@ How to create .deb packages on Debian:
 
 ``cd odn && fakeroot debian/rules clean binary``
 
-How to install ckan's deb on debian`
+How to install ckan's deb on debian
 -------------------
 
 ``dpkg -i odn-ckan-shared_2.2.1-1_amd64.deb``
