@@ -66,3 +66,24 @@ It is open and licensed under the GNU Affero General Public License (AGPL) v3.0
 whose full text may be found at:
 
 http://www.fsf.org/licensing/licenses/agpl-3.0.html
+
+How to create .deb packages on Debian:
+-------------------
+
+``cd odn && fakeroot debian/rules clean binary``
+
+How to install ckan's deb on debian`
+-------------------
+
+``dpkg -i odn-ckan-shared_2.2.1-1_amd64.deb``
+
+``... some dependency errors``
+
+``apt-get install -f -y``
+
+How to uninstall with dependency
+-------------------
+
+``apt-get purge odn-ckan-shared``
+
+``apt-get autoremove``
