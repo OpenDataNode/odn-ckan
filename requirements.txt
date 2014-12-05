@@ -44,4 +44,3 @@ zope.interface==4.0.1
 git+https://github.com/OpenDataNode/odn-ckancommons.git@develop#egg=odn-ckancommons
 git+https://github.com/OpenDataNode/ckanext-odn-pipeline.git@develop#egg=ckanext-odn-pipeline
 git+https://github.com/OpenDataNode/ckanext-odn-theme.git@develop#egg=ckanext-odn-theme
-git+https://github.com/ogdch/ckanext-noregistration.git#egg=ckanext-noregistration
