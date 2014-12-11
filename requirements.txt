@@ -41,6 +41,5 @@ unicodecsv==0.9.4
 vdm==0.11
 wsgiref==0.1.2
 zope.interface==4.0.1
-git+https://github.com/OpenDataNode/odn-ckancommons.git@develop#egg=odn-ckancommons
-git+https://github.com/OpenDataNode/ckanext-odn-pipeline.git@develop#egg=ckanext-odn-pipeline
-git+https://github.com/OpenDataNode/ckanext-odn-theme.git@develop#egg=ckanext-odn-theme
+git+https://github.com/OpenDataNode/ckanext-odn-pipeline.git@release/ODN_v0.9.0#egg=ckanext-odn-pipeline
+git+https://github.com/OpenDataNode/ckanext-odn-theme.git@release/ODN_v0.9.0#egg=ckanext-odn-theme
