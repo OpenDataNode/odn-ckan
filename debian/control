@@ -4,6 +4,7 @@ Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 9), dh-virtualenv (>= 0.7), libpq-dev, python-dev
 Homepage: http://ckan.org
 Vcs-Git: https://github.com/ckan/ckan.git
+Version: 0.10.0
 
 Package: odn-ckan-shared
 Architecture: any
