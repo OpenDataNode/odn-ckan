@@ -1,4 +1,4 @@
-Source: ckan
+Source: odn-ckan-shared
 Maintainer: Someone FIXME <someone@somewhere.org>
 Standards-Version: 3.9.3
 Build-Depends: debhelper (>= 9), dh-virtualenv (>= 0.7), libpq-dev, python-dev
