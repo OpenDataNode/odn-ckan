@@ -1,4 +1,4 @@
-ckan (2.2.1-2-SNAPSHOT) unstable; urgency=low
+odn-ckan-shared (2.2.1-2-SNAPSHOT) unstable; urgency=low
   * create develop release 2.2.1-2-SNAPSHOT
  
  -- Jan Marcek <jmc@wheezy.marcek.local>  Fri, 12 Jan 2014 09:05:18 +0100
