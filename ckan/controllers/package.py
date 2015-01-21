@@ -683,7 +683,8 @@ class PackageController(base.BaseController):
                 except NotFound:
                     abort(404,
                       _('The dataset {id} could not be found.').format(id=id))
-                if not len(data_dict['resources']):
+                if asbool(config.get('ckan.dataset_form.require_resources', 'True')) and \
+                        not len(data_dict['resources']):
                     # no data so keep on page
                     msg = _('You must add at least one data resource')
                     # On new templates do not use flash message
