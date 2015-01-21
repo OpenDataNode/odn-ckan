@@ -70,6 +70,21 @@ class TestPackageControllerNew(helpers.FunctionalTestBase):
                                   status=200, extra_environ=env)
         assert_true('resource-edit' in response.forms)
         assert_true('You must add at least one data resource' in response)
+    
+    @helpers.change_config('ckan.dataset_form.require_resources', 'False')
+    def test_complete_package_without_resource(self):
+        app = self._get_test_app()
+        env, response = _get_package_new_page(app)
+        form = response.forms['dataset-edit']
+        form['name'] = u'complete-package-without-resource'
+
+        response = submit_and_follow(app, form, env, 'save')
+        form = response.forms['resource-edit']
+
+        submit_and_follow(app, form, env, 'save', 'go-metadata')
+        pkg = model.Package.by_name(u'complete-package-without-resource')
+        assert_true(len(pkg.resources) == 0)
+        assert_equal(pkg.state, 'active')
 
     def test_complete_package_with_one_resource(self):
         app = self._get_test_app()

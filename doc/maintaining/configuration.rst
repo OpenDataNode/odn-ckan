@@ -897,18 +897,19 @@ When set to false, or no, this setting will hide the 'Apps, Ideas, etc' tab on t
 
 .. note::  This only applies to the legacy Genshi-based templates
 
-.. _ckan.dataset.create.require.resource:
+.. _ckan.dataset_form.require_resources:
 
-ckan.dataset.create.require.resource
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ckan.dataset_form.require_resources
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Example::
 
- ckan.dataset.create.require.resource = False
+ ckan.dataset_form.require_resources = False
 
 Default value: True
 
 If False, it's not needed to specify resource when creating new dataset in /dataset/new the 2nd stage.
+
 
 .. _ckan.dumps_url:
 
