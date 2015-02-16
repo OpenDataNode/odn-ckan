@@ -1,5 +1,5 @@
-odn-ckan-shared (2.2.1-3) unstable; urgency=low
-  * create snapshot 2.2.1-3
+odn-ckan-shared (2.2.1-odn0.10.0) unstable; urgency=low
+  * create release 0.10.0 using ckan 2.2.1
 
   -- Jan Marcek <jmc@wheezy.marcek.local>  Thu, 22 Jan 2014 09:05:18 +0100
 
