@@ -1,4 +1,4 @@
-odn-ckan-shared (2.2.2-alfa.odn0.11.0) unstable; urgency=low
+odn-ckan-shared (2.2.2-odn0.11.0) unstable; urgency=low
   * create snapshot 0.11.0 using ckan 2.2.2b
 
   -- Jan Marcek <jan.marcek@eea.sk>  Thu, 5 Mar 2015 16:49:16 +0100
