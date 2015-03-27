@@ -44,6 +44,14 @@
     null,
     "Of stutt, verður að vera í það minnsta einn stafur"
   ],
+  "Link": [
+    null,
+    "Tengill"
+  ],
+  "Link to a URL on the internet (you can also link to an API)": [
+    null,
+    "Farðu inn á vefslóð á netinu (þú getur líka tengst API)"
+  ],
   "Loading...": [
     null,
     "Hleð..."
@@ -60,9 +68,25 @@
     null,
     "Fjarlægja"
   ],
+  "Reorder resources": [
+    null,
+    "Endurpantaðu tilföng"
+  ],
+  "Reset this": [
+    null,
+    "Endurstilltu þetta"
+  ],
   "Resource uploaded": [
     null,
     "Skránni hefur verið hlaðið inn"
+  ],
+  "Save order": [
+    null,
+    "Vistaðu pöntun"
+  ],
+  "Saving...": [
+    null,
+    "Vistun í gangi..."
   ],
   "Show more": [
     null,
@@ -78,7 +102,7 @@
   ],
   "There is no API data to load for this resource": [
     null,
-    "Það eru engin API gögn sem er hægt að hlaða inn fyrir þetta skrá"
+    "Það eru engin API gögn sem er hægt að hlaða inn fyrir þessa skrá"
   ],
   "URL": [
     null,
@@ -86,7 +110,7 @@
   ],
   "Unable to authenticate upload": [
     null,
-    "Ekki fékst heimild til að hlaða inn skrá"
+    "Ekki fékkst heimild til að hlaða inn skrá"
   ],
   "Unable to get data for uploaded file": [
     null,
@@ -107,6 +131,14 @@
   "Upload a file": [
     null,
     "Hlaða inn skrá"
+  ],
+  "Upload a file on your computer": [
+    null,
+    "Sæktu skrá á tölvuna þína"
+  ],
+  "You are uploading a file. Are you sure you want to navigate away and stop this upload?": [
+    null,
+    "Þú ert að sækja skrá. Ertu viss um að viljir fara af síðunni og stöðva niðurhalið? "
   ],
   "show less": [
     null,
