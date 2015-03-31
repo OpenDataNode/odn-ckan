@@ -170,7 +170,11 @@ setup(
         'migration/README',
         'migration/tests/test_dumps/*',
         'migration/versions/*',
-    ]},
+        ],
+                  'ckanext':[
+        'datastore/set_permissions.sql',
+        ]
+    },
     message_extractors={
         'ckan': [
             ('**.py', 'python', None),
