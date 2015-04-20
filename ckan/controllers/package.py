@@ -683,7 +683,8 @@ class PackageController(base.BaseController):
                 except NotFound:
                     abort(404,
                       _('The dataset {id} could not be found.').format(id=id))
-                if not len(data_dict['resources']):
+                if asbool(config.get('ckan.dataset_form.require_resources', 'True')) and \
+                        not len(data_dict['resources']):
                     # no data so keep on page
                     msg = _('You must add at least one data resource')
                     # On new templates do not use flash message
@@ -695,9 +696,13 @@ class PackageController(base.BaseController):
                         errors = {}
                         error_summary = {_('Error'): msg}
                         return self.new_resource(id, data, errors, error_summary)
-                # we have a resource so let them add metadata
+                # XXX race condition if another user edits/deletes
+                data_dict = get_action('package_show')(context, {'id': id})
+                get_action('package_update')(
+                    dict(context, allow_state_change=True),
+                    dict(data_dict, state='active'))
                 redirect(h.url_for(controller='package',
-                                   action='new_metadata', id=id))
+                                   action='read', id=id))
 
             data['package_id'] = id
             try:
