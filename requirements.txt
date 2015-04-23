@@ -41,10 +41,10 @@ unicodecsv==0.9.4
 vdm==0.13
 wsgiref==0.1.2
 zope.interface==4.1.1
-git+https://github.com/OpenDataNode/ckanext-odn-pipeline.git@develop#egg=ckanext-odn-pipeline
-git+https://github.com/OpenDataNode/ckanext-odn-theme.git@develop#egg=ckanext-odn-theme
-git+https://github.com/OpenDataNode/odn-ckancommons.git@develop#egg=odn-ckancommons
-git+https://github.com/OpenDataNode/ckanext-odn-ic2pc-sync.git@develop#egg=ckanext-odn-ic2pc-sync
+git+https://github.com/OpenDataNode/ckanext-odn-pipeline.git@release/ODN_v1.0.0#egg=ckanext-odn-pipeline
+git+https://github.com/OpenDataNode/ckanext-odn-theme.git@release/ODN_v1.0.0#egg=ckanext-odn-theme
+git+https://github.com/OpenDataNode/odn-ckancommons.git@release/ODN_v1.0.0#egg=odn-ckancommons
+git+https://github.com/OpenDataNode/ckanext-odn-ic2pc-sync.git@release/ODN_v1.0.0#egg=ckanext-odn-ic2pc-sync
 git+https://github.com/OpenDataNode/ckanext-odn-cas.git@develop#egg=ckanext-odn-cas
 git+https://github.com/OpenDataNode/ckanext-audited-datastore-api.git@develop#egg=ckanext-audited-datastore-api
 git+https://github.com/microcomp/repoze.who.plugins.cas.git@master#egg=repoze.who.plugins.cas
