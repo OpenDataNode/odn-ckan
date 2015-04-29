@@ -1,3 +1,9 @@
+odn-ckan-shared (2.3-odn1.0.2) unstable; urgency=low
+
+  * Ckan 2.3 - fix theme
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Wed, 29 Apr 2015 15:00:09 +0100
+
 odn-ckan-shared (2.3-odn1.0.1) unstable; urgency=low
 
   * Ckan 2.3 - fix theme
