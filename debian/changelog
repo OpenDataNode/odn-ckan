@@ -1,3 +1,9 @@
+odn-ckan-shared (2.3-odn1.1.0) unstable; urgency=low
+
+  * Ckan 2.3 - fix ckanext-odn-cas - user as actor of organization
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Thu, 25 Jun 2015 10:56:57 +0200
+
 odn-ckan-shared (2.3-odn1.0.3) unstable; urgency=low
 
   * Ckan 2.3 - 
