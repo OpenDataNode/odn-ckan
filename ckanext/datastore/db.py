@@ -254,6 +254,8 @@ def json_get_values(obj, current_list=None):
             json_get_values(item, current_list)
     elif isinstance(obj, dict):
         json_get_values(obj.items(), current_list)
+    elif isinstance(obj, basestring):
+        current_list.append(unicode(obj))
     elif obj:
         current_list.append(str(obj))
     return current_list
