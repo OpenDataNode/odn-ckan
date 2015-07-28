@@ -195,6 +195,8 @@ class ApiController(base.BaseController):
             del request_data['callback']
         try:
             result = function(context, request_data)
+            if 'internal_api' == logic_function and request_data.get('action','') == 'resource_download':
+                return result
             return_dict['success'] = True
             return_dict['result'] = result
         except DataError, e:
