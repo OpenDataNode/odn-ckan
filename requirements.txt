@@ -41,9 +41,9 @@ unicodecsv==0.9.4
 vdm==0.13
 wsgiref==0.1.2
 zope.interface==4.1.1
-git+https://github.com/OpenDataNode/ckanext-odn-pipeline.git@ODN_v1.1.0#egg=ckanext-odn-pipeline
+git+https://github.com/OpenDataNode/ckanext-odn-pipeline.git@hotfix/fix_internationalization#egg=ckanext-odn-pipeline
 git+https://github.com/OpenDataNode/odn-ckancommons.git@ODN_v1.1.0#egg=odn-ckancommons
-git+https://github.com/OpenDataNode/ckanext-odn-ic2pc-sync.git@ODN_v1.1.0#egg=ckanext-odn-ic2pc-sync
+git+https://github.com/OpenDataNode/ckanext-odn-ic2pc-sync.git@release/ODN_v1.1.1#egg=ckanext-odn-ic2pc-sync
 git+https://github.com/OpenDataNode/ckanext-odn-cas.git@ODN_v1.1.0#egg=ckanext-odn-cas
 git+https://github.com/OpenDataNode/ckanext-audited-datastore-api.git@ODN_v1.0.0#egg=ckanext-audited-datastore-api
 git+https://github.com/OpenDataNode/repoze.who.plugins.cas.git@ODN_v1.0.3#egg=repoze.who.plugins.cas
