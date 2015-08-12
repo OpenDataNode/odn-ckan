@@ -1,3 +1,11 @@
+odn-ckan-shared (2.3-odn1.1.2) unstable; urgency=low
+
+  * Ckan 2.3 - fix url validator
+  * Ckan 2.3 - fix resource view
+  * Ckan 2.3 - fix dont use dismax in solr
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Wed, 12 Aug 2015 10:00:00 +0200
+
 odn-ckan-shared (2.3-odn1.1.1) unstable; urgency=low
 
   * Ckan 2.3 - fix datastore - allow non-asci characters
