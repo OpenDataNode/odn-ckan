@@ -7,6 +7,32 @@
 Changelog
 ---------
 
+v2.3.2 2015-09-02
+=================
+
+Bug fixes:
+* Fix autodetect for TSV resources (#2553)
+* Improve character escaping in DataStore parameters
+* Fix "paster db init" when celery is configured with a non-database backend
+
+v2.3.1 2015-07-22
+=================
+
+Bug fixes:
+ * Resource views won't display when embedded in another site (#2238)
+ * ``resource_update`` failed if you supplied a revision_id (#2340)
+ * Recline could not plot GeoJSON on a map (#2387)
+ * Dataset create form 404 error if you added a resource but left it blank (#2392)
+ * Editing a resource view for a file that was UTF-8 and had a BOM gave an
+   error (#2401)
+ * Email invites had the email address changed to lower-case (#2415)
+ * Default resource views not created when using a custom dataset schema (#2421,
+   #2482)
+ * If the licenses pick-list was customized to remove some, datasets with old
+   values had them overwritten when edited (#2472)
+ * Recline views failed on some non-ascii characters (#2490)
+ * Resource views for non-default dataset types couldn't be created (#2532)
+
 v2.3 2015-03-04
 ===============
 
@@ -303,6 +329,17 @@ Troubleshooting:
 
   Also see the previous point for other ``who.ini`` changes.
 
+v2.2.3 2015-07-22
+=================
+
+Bug fixes:
+ * Allow uppercase emails on user invites (#2415)
+ * Fix broken boolean validator (#2443)
+ * Fix auth check in resources_list.html (#2037)
+ * Key error on resource proxy (#2425)
+ * Ignore revision_id passed to resources (#2340)
+ * Add reset for reset_key on successful password change (#2379)
+
 v2.2.2 2015-03-04
 =================
 
@@ -524,6 +561,15 @@ Troubleshooting:
    leaving the fields empty. Also make sure to restart running processes like
    harvesters after the update to make sure they use the new code base.
 
+v2.1.5 2015-07-22
+=================
+
+Bug fixes:
+ * Fix broken boolean validator (#2443)
+ * Key error on resource proxy (#2425)
+ * Ignore revision_id passed to resources (#2340)
+ * Add reset for reset_key on successful password change (#2379)
+
 v2.1.4 2015-03-04
 =================
 
@@ -681,6 +727,15 @@ Deprecated and removed:
 Known issues:
  * Under certain authorization setups the frontend for the groups functionality
    may not work as expected (See #1176 #1175).
+
+v2.0.7 2015-07-22
+=================
+
+Bug fixes:
+ * Fix broken boolean validator (#2443)
+ * Key error on resource proxy (#2425)
+ * Ignore revision_id passed to resources (#2340)
+ * Add reset for reset_key on successful password change (#2379)
 
 v2.0.6 2015-03-04
 =================

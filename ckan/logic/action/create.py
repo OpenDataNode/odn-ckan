@@ -206,10 +206,16 @@ def package_create(context, data_dict):
 
         item.after_create(context, data)
 
+    # Make sure that a user provided schema is not used in create_views
+    # and on package_show
+    context.pop('schema', None)
+
     # Create default views for resources if necessary
     if data.get('resources'):
         logic.get_action('package_create_default_resource_views')(
-            context, {'package': data})
+            {'model': context['model'], 'user': context['user'],
+             'ignore_auth': True},
+            {'package': data})
 
     if not context.get('defer_commit'):
         model.repo.commit()
@@ -219,9 +225,6 @@ def package_create(context, data_dict):
     ## this is added so that the rest controller can make a new location
     context["id"] = pkg.id
     log.debug('Created object %s' % pkg.name)
-
-    # Make sure that a user provided schema is not used on package_show
-    context.pop('schema', None)
 
     return_id_only = context.get('return_id_only', False)
 
@@ -1092,7 +1095,7 @@ def user_invite(context, data_dict):
 
 def _get_random_username_from_email(email):
     localpart = email.split('@')[0]
-    cleaned_localpart = re.sub(r'[^\w]', '-', localpart)
+    cleaned_localpart = re.sub(r'[^\w]', '-', localpart).lower()
 
     # if we can't create a unique user name within this many attempts
     # then something else is probably wrong and we should give up
