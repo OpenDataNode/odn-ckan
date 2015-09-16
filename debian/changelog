@@ -1,3 +1,9 @@
+odn-ckan-shared (2.3.2-odn1.2.0) unstable; urgency=low
+
+  * Ckan 2.3.2 
+
+ -- Jan Marcek <jan.marcek@eea.sk> Wed, 16 Sep 2015 16:00:52 +0200
+
 odn-ckan-shared (2.3-odn1.1.2) unstable; urgency=low
 
   * Ckan 2.3 - fix url validator
