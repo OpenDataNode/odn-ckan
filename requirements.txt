@@ -46,4 +46,4 @@ git+https://github.com/OpenDataNode/odn-ckancommons.git@release/ODN_v1.2.0#egg=o
 git+https://github.com/OpenDataNode/ckanext-odn-ic2pc-sync.git@release/ODN_v1.2.0#egg=ckanext-odn-ic2pc-sync
 git+https://github.com/OpenDataNode/ckanext-odn-cas.git@release/ODN_v1.2.0#egg=ckanext-odn-cas
 git+https://github.com/OpenDataNode/ckanext-audited-datastore-api.git@ODN_v1.1.2#egg=ckanext-audited-datastore-api
-git+https://github.com/OpenDataNode/repoze.who.plugins.cas.git@origin/odn/develop#egg=repoze.who.plugins.cas
+git+https://github.com/OpenDataNode/repoze.who.plugins.cas.git@release/ODN_v1.2.0#egg=repoze.who.plugins.cas
