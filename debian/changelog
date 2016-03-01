@@ -2,7 +2,7 @@ odn-ckan-shared (2.3.2-odn1.2.3) unstable; urgency=low
 
   * ckanext fixies - ic2pc
 
- -- Jan Marcek <jan.marcek@eea.sk> Mon, 29 Feb 2015 15:14:03 +0200
+ -- Jan Marcek <jan.marcek@eea.sk>  Mon, 29 Feb 2016 15:50:50 +0100
 
 odn-ckan-shared (2.3.2-odn1.2.2) unstable; urgency=low
 
