@@ -1,8 +1,14 @@
-odn-ckan-shared (2.3.2-odn1.2.2~RC) unstable; urgency=low
+odn-ckan-shared (2.3.2-odn1.2.3) unstable; urgency=low
 
-* ckanext fixies - ic2pc, cas, pipelines
+  * ckanext fixies - ic2pc
 
--- Jan Marcek <jan.marcek@eea.sk> Fri, 20 Nov 2015 13:34:53 +0200
+ -- Jan Marcek <jan.marcek@eea.sk>  Mon, 29 Feb 2016 15:50:50 +0100
+
+odn-ckan-shared (2.3.2-odn1.2.2) unstable; urgency=low
+
+  * ckanext fixies - repoze.who.plugins.cas, ic2pc, commons, ic2pc
+
+ -- Jan Marcek <jan.marcek@eea.sk> Mon, 18 Jan 2015 13:34:53 +0200
 
 odn-ckan-shared (2.3.2-odn1.2.1) unstable; urgency=low
 
