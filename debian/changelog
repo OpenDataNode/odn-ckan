@@ -1,3 +1,9 @@
+odn-ckan-shared (2.3.2-odn1.2.4) unstable; urgency=low
+
+  * ckanext fixies - ckan dependency on python3
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Thu, 15 Mar 2016 15:49:50 +0100
+
 odn-ckan-shared (2.3.2-odn1.2.3) unstable; urgency=low
 
   * ckanext fixies - ic2pc
