@@ -5,3 +5,4 @@
 
 override_dh_virtualenv:
 	dh_virtualenv
+    rm -f  debian/odn-ckan-shared/usr/share/python/odn-ckan-shared/lib/python2.7/site-packages/pyutilib/component/core/core3.py
