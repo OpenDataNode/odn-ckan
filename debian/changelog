@@ -1,3 +1,9 @@
+odn-ckan-shared (2.3.2-odn1.2.5) unstable; urgency=low
+
+  * ckanext fixies - ssl certificate validation
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Thu, 17 Mar 2016 13:12:10 +0100
+
 odn-ckan-shared (2.3.2-odn1.2.4) unstable; urgency=low
 
   * ckanext fixies - ckan dependency on python3
