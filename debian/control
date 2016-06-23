@@ -5,6 +5,7 @@ Build-Depends: debhelper (>= 9), dh-virtualenv (>= 0.7), libpq-dev, python-dev
 Homepage: http://ckan.org
 Vcs-Git: https://github.com/OpenDataNode/odn-ckan.git
 Version: 2.3
+X-Python-Version: 2.7
 
 Package: odn-ckan-shared
 Architecture: any
