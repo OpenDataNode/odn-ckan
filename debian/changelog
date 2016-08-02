@@ -1,8 +1,14 @@
-odn-ckan-shared (2.5.2-odn1.3.0) unstable; urgency=low
+odn-ckan-shared (2.3.2-odn1.3.2) unstable; urgency=low
 
-  * major release
+  * ckanext fixies 
 
- -- Jan Marcek <jan.marcek@eea.sk>  Thu, 23 Jun 2016 10:30:10 +0100
+ -- Jan Marcek <jan.marcek@eea.sk>  Mon, 01 Aug 2016 14:20:00 +0100
+ 
+odn-ckan-shared (2.3.2-odn1.3.1) unstable; urgency=low
+
+  * ckanext fixies 
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Fri, 29 Jul 2016 10:40:00 +0100
 
 odn-ckan-shared (2.3.2-odn1.3.0) unstable; urgency=low
 
