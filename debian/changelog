@@ -1,6 +1,6 @@
 odn-ckan-shared (2.3.2-odn1.6.0) unstable; urgency=low
 
-  * fixes for odn-ckancommons
+  * fixes for odn-ckancommons and repoze.who.plugins.cas
 
  -- Peter Hanecak <hanecak@opendata.sk>  Mon, 14 Nov 2016 11:06:00 +0100
  
