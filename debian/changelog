@@ -1,3 +1,9 @@
+odn-ckan-shared (2.3.5-odn1.6.0) unstable; urgency=low
+
+  * merged fixes from upstream release 2.3.5
+
+ -- Peter Hanecak <hanecak@opendata.sk>  Mon, 14 Nov 2016 11:06:00 +0100
+ 
 odn-ckan-shared (2.3.2-odn1.6.0) unstable; urgency=low
 
   * fixes for odn-ckancommons and repoze.who.plugins.cas
