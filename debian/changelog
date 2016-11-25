@@ -1,0 +1,110 @@
+odn-ckan-shared (2.3.2-odn1.6.0) unstable; urgency=low
+
+  * fixes for odn-ckancommons and repoze.who.plugins.cas
+
+ -- Peter Hanecak <hanecak@opendata.sk>  Mon, 14 Nov 2016 11:06:00 +0100
+ 
+odn-ckan-shared (2.3.2-odn1.3.2) unstable; urgency=low
+
+  * ckanext fixies 
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Mon, 01 Aug 2016 14:20:00 +0100
+ 
+odn-ckan-shared (2.3.2-odn1.3.1) unstable; urgency=low
+
+  * ckanext fixies 
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Fri, 29 Jul 2016 10:40:00 +0100
+
+odn-ckan-shared (2.3.2-odn1.3.0) unstable; urgency=low
+
+  * ckanext fixies 
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Mon, 23 May 2016 12:10:10 +0100
+
+odn-ckan-shared (2.3.2-odn1.2.6) unstable; urgency=low
+
+  * ckanext fixies - support python older then 2.7.9
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Thu, 17 Mar 2016 14:40:10 +0100
+
+odn-ckan-shared (2.3.2-odn1.2.5) unstable; urgency=low
+
+  * ckanext fixies - ssl certificate validation
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Thu, 17 Mar 2016 13:12:10 +0100
+
+odn-ckan-shared (2.3.2-odn1.2.4) unstable; urgency=low
+
+  * ckanext fixies - ckan dependency on python3
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Thu, 15 Mar 2016 15:49:50 +0100
+
+odn-ckan-shared (2.3.2-odn1.2.3) unstable; urgency=low
+
+  * ckanext fixies - ic2pc
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Mon, 29 Feb 2016 15:50:50 +0100
+
+odn-ckan-shared (2.3.2-odn1.2.2) unstable; urgency=low
+
+  * ckanext fixies - repoze.who.plugins.cas, ic2pc, commons, ic2pc
+
+ -- Jan Marcek <jan.marcek@eea.sk> Mon, 18 Jan 2015 13:34:53 +0200
+
+odn-ckan-shared (2.3.2-odn1.2.1) unstable; urgency=low
+
+  * ckanext fixies - ic2pc, commons, audited-datastore-api
+
+ -- Jan Marcek <jan.marcek@eea.sk> Tue, 20 Oct 2015 13:34:53 +0200
+
+odn-ckan-shared (2.3.2-odn1.2.0) unstable; urgency=low
+
+  * Ckan 2.3.2 
+
+ -- Jan Marcek <jan.marcek@eea.sk> Wed, 16 Sep 2015 16:00:52 +0200
+
+odn-ckan-shared (2.3-odn1.1.2) unstable; urgency=low
+
+  * Ckan 2.3 - fix url validator
+  * Ckan 2.3 - fix resource view
+  * Ckan 2.3 - fix dont use dismax in solr
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Wed, 12 Aug 2015 10:00:00 +0200
+
+odn-ckan-shared (2.3-odn1.1.1) unstable; urgency=low
+
+  * Ckan 2.3 - fix datastore - allow non-asci characters
+  * Ckan 2.3 - fix resource download
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Tue, 28 Jul 2015 10:50:00 +0200
+
+odn-ckan-shared (2.3-odn1.1.0) unstable; urgency=low
+
+  * Ckan 2.3 - fix ckanext-odn-cas - user as actor of organization
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Thu, 25 Jun 2015 10:56:57 +0200
+
+odn-ckan-shared (2.3-odn1.0.3) unstable; urgency=low
+
+  * Ckan 2.3 - 
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Fri, 29 May 2015 10:00:00 +0100
+
+odn-ckan-shared (2.3-odn1.0.2) unstable; urgency=low
+
+  * Ckan 2.3 - fix theme
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Wed, 29 Apr 2015 15:00:09 +0100
+
+odn-ckan-shared (2.3-odn1.0.1) unstable; urgency=low
+
+  * Ckan 2.3 - fix theme
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Wed, 29 Apr 2015 11:00:09 +0100
+
+odn-ckan-shared (2.3-odn1.0.0) unstable; urgency=low
+
+  * Ckan 2.3 
+
+ -- Jan Marcek <jan.marcek@eea.sk>  Mon, 16 Mar 2015 11:00:09 +0100

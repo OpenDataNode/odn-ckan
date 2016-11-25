@@ -344,17 +344,6 @@ class PackageSearchQuery(SearchQuery):
         # return results as json encoded string
         query['wt'] = query.get('wt', 'json')
 
-        # If the query has a colon in it then consider it a fielded search and do use dismax.
-        defType = query.get('defType', 'dismax')
-        if ':' not in query['q'] or defType == 'edismax':
-            query['defType'] = defType
-            query['tie'] = query.get('tie', '0.1')
-            # this minimum match is explained
-            # http://wiki.apache.org/solr/DisMaxQParserPlugin#mm_.28Minimum_.27Should.27_Match.29
-            query['mm'] = query.get('mm', '2<-1 5<80%')
-            query['qf'] = query.get('qf', QUERY_FIELDS)
-
-
         conn = make_connection()
         log.debug('Package query: %r' % query)
         try:

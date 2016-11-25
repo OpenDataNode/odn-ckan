@@ -709,7 +709,7 @@ def url_validator(key, data, errors, context):
 
     pieces = urlparse.urlparse(url)
     if all([pieces.scheme, pieces.netloc]) and \
-       set(pieces.netloc) <= set(string.letters + string.digits + '-.') and \
+       re.match('^[-\.\w]+(:\d+)?$', pieces.netloc) and \
        pieces.scheme in ['http', 'https']:
        return
 
